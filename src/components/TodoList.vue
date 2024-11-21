@@ -31,7 +31,6 @@
                 <input type="text" v-model="searchQuery" placeholder="Search tasks..." class="search-input">
             </div>
         </div>
-        <!-- 接着上一部分的代码 -->
 
         <!-- 任务列表 Task list -->
         <transition-group name="list" tag="ul" class="todo-list">
@@ -134,8 +133,6 @@ export default {
             });
         }
     },
-
-    // 接着上一部分的代码
 
     // 方法定义 Method definitions
     methods: {
